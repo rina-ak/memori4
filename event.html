@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Мемори</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="icon" href="./img/logo .svg" type="image/x-icon" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="./js.js" charset="UTF-8"></script>
+  </head>
+
+  <body> 
+   <!-- header -->
+   <div class="header">
+    <a href="./index.html"><div class="logo"></div></a>
+    <div class="text">
+      <a href="about.html">о нас</a>
+      <a href="merch.html">мерч</a>
+      <a href="event.html">мероприятия </a>
+    </div>
+    <a href="./404.html">
+      <div class="basket"></div>
+    </a>
+  </div>
+
+  <!-- текстовый блок -->
+  <div>
+    <p class="merch_text">
+      <span class="bold">мероприятия,</span> проводимые <br>
+      в пространстве
+    </p>
+
+    <p class="merch_text2">расписание прошедших и запланированных мероприятий. ближайшие открытые даты появятся позже.
+    </p>
+  </div>
+
+  <!-- 1 блок с постерами -->
+  <div class="back">
+    <p class="text_postres">мастер-класс по сохранению воспоминаний</p>
+    
+    <div class="poster_row">
+      <div class="poster poster1"></div>
+      <div class="poster poster2"></div>
+      <div class="poster poster3"></div>
+    </div>
+  </div>
+
+  <!-- 2 блок с постерами -->
+  <div class="back">
+    <p class="text_postres">вечер воспоминаний</p>
+    
+    <div class="poster_row">
+      <div class="poster poster4"></div>
+      <div class="poster poster5"></div>
+      <div class="poster poster6"></div>
+    </div>
+  </div>
+
+  <!-- увеличение постеров -->
+  <div class="overlay" id="overlay">
+  <div class="zoomed-poster" id="zoomedPoster"></div></div>
+
+  <!-- блок с формой для заявки -->
+  <div class="background">
+    <div class="upblock">
+      <p class="send_text">
+        мы также проводим экскурсии — индивидуальные и групповые. оставьте заявку, и мы свяжемся с вами, чтобы согласовать детали.
+      </p>
+    
+      <input class="box_name_lastname" type="text" placeholder="имя и фамилия" />
+      <input class="email_2" type="email" placeholder="почта" />
+      <input class="data" type="text" placeholder="дд.мм.гггг" />
+    
+      <button class="button_2">отправить</button>
+    </div>
+
+    <div class="card card5"></div>
+    <div class="card card6"></div>
+    <div class="card card7"></div>
+    <div class="card card8"></div>
+  </div>
+
+  <!-- вспылающие окно -->
+  <div id="popupOverlay2" class="popup-overlay" style="display: none;">
+    <div class="popup_2">
+      <button id="closePopup2" class="close-btn">×</button>
+    </div>
+  </div>
+  </div>
+
+ <!-- подвал -->
+    <div class="basement">
+         <p class="name">кузнецова арина <br>бп24дз09
+        </p>
+        <div class="color_logo"></div>
+    </div>
+  </body>
+</html>
