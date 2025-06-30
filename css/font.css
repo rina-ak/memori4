@@ -1,0 +1,20 @@
+@font-face  {
+    font-family: "font-regular";
+    src: url("../Inter/static/Inter_18pt-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face  {
+    font-family: "font-bold";
+    src: url("../Inter/static/Inter_18pt-Bold.ttf");
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face  {
+    font-family: "font-black";
+    src: url("../Inter/static/Inter_18pt-Black.ttf");
+    font-weight: black;
+    font-style: black;
+}

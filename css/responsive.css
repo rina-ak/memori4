@@ -1,0 +1,306 @@
+/* 414x896 (IPhone) */
+@media screen and (max-width: 414px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+
+  /* header */
+    .header {
+    height: 15vw;
+    grid-template-columns: 20% 70% 10%;
+  }
+
+  .logo {
+    height: 60%;
+    width: 90%;
+    margin-left: 24%;
+    margin-top: 12%;
+  }
+  
+  .basket {
+    margin-left: -10%;
+    height: 6vw;
+  }
+  
+  .text {
+    padding-inline: 15%;
+    gap: 2vw;
+    font-size: 2vw;
+  }
+  
+  a {
+    font-size: 3vw;}
+
+ h1 {
+    font-size: 6vw; }
+ p {font-size: 4vw; } 
+
+ .main_banner {
+    height: 80vw; }
+  
+  .block_4 {
+    display: grid;
+     grid-template-columns: 1fr; 
+     justify-items: center; 
+      }
+    
+  .card1 {
+    width: 70vw;
+    height: 70vw; }
+     
+  .card2 {
+    width: 70vw;
+    height: 70vw; }
+    
+  .card3 {
+    width: 70vw;
+    height: 70vw; }
+        
+  .card4 {
+    width: 70vw;
+    height: 70vw; }
+    
+  .card_text1 {
+    font-size: 3.5vw;}
+    
+  .card_text2 {
+    font-size: 3.5vw;
+    margin-left: 4%;}
+
+  .card_move1 {
+    margin-bottom: 10%;
+    width: 40vw;
+    height: 40vw;}
+
+  .card_move2 {
+    background-size: contain;}
+
+  .card_move4 {
+    width: 70vw;
+    height: 70vw;}
+
+  .block_5 {
+    grid-template-columns: 1fr;
+    justify-items: center;}
+        
+  .ani_block {
+    width: 70vw;
+    height: 120vw;
+    margin-left: 0;
+    margin-top: 4vw;
+    padding-top: 25vw;}
+
+  .b1 {
+    width: 15vw;
+    height: 15vw;
+    margin-left: -150%;
+    margin-top: -130%;}
+        
+  .b2 {
+    width: 15vw;
+    height: 15vw;
+    margin-left: -150%;}
+        
+  .b3 {
+    width: 15vw;
+    height: 15vw;
+    margin-left: -51%;
+    margin-top: -100%;}
+        
+  .b4 {
+    width: 15vw;
+    height: 15vw;
+    margin-left: -150%;
+    margin-top: -3%;}
+        
+  .b5 {
+    width: 15vw;
+    height: 15vw;
+    margin-left: -51%;
+    margin-top: -100%;}
+        
+  .b6 {
+    width: 15vw;
+    height: 15vw;
+    margin-left: 48%;
+    margin-top: -100%;}
+
+  .ani_block_text {
+    font-size: 5vw;
+    width: 80%;}
+
+  .form {
+    width: 70vw;
+    height: auto;
+    padding: 4vw 2vw;}
+        
+  .card_text1 {
+    font-size: 4vw;
+    margin: 4vw auto;
+    text-align: center;}
+        
+  .box_name,
+  .email {
+    width: 85%;
+    height: 10vw;
+    font-size: 4vw;
+    margin-bottom: 4vw;}
+        
+  .button {
+    width: 87%;
+    height: 14vw;
+    font-size: 4vw;
+    background-size: contain;
+    background-position: center;}
+        
+  .pic {
+    display: none;}
+
+  .basement {
+    margin-top: 10%;}
+
+
+/* о нас баннер */
+  .banner_about {
+    height: 60vw;             
+    background-size: cover;   
+    width: 400%;              
+    animation: scrollBanner 20s linear infinite;
+    margin-bottom: 10%;}
+
+  .text_bold {
+    font-size: 6vw;}
+        
+  .info {
+    grid-template-columns: 1fr;}
+        
+  .photo_2,
+  .photo_3,
+  .book_text,
+  .info_2 {
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: center;
+    width: 80%;}
+
+  .info_3 {
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 5%;}
+        
+  .book_text {
+    margin-top: 5%;
+    width: 80vw;}
+        
+  .photo_2,
+  .photo_3 {
+    height: 40vw;}
+
+  .p1 {
+    width: 150vw;
+    height: 45vw;
+    margin-left: -15%;}
+
+  .p2 {
+    width: 130vw;
+    height: 40vw;
+    margin-left: -5%;}
+
+  .p3 {
+    width: 150vw;
+    height: 50vw;
+    margin-left: -35%;}
+
+  .p4 {
+    width: 150vw;
+    height: 50vw;
+    margin-left: -37%;}
+
+  .p5 {
+    width: 120vw;
+    height: 40vw;
+    margin-left: -20%;}
+
+/* мерч */
+  .merch_text {
+    font-size: 5vw;}
+
+  .merch_text2 {
+    font-size: 3.5vw;
+    margin-left: 5%;
+    width: 90%;}
+
+  .allmerch {
+    grid-template-columns: repeat(2, 1fr);}
+        
+  .merch_img {
+    width: 35vw;
+    height: 28vw;}
+        
+  .merch_card {
+    height: 56vw;}
+        
+  .description {
+    font-size: 3vw;}
+        
+  .price {
+    font-size: 4vw;}
+        
+  .buy_button {
+    font-size: 2.5vw;
+    padding: 1vw 3vw;}
+
+/* постеры */
+
+  .text_postres {
+    font-size: 3vw;
+    width: 90%;
+    padding-bottom: 4vw;}
+
+  .background {
+    margin-bottom: -10%;}
+
+  .upblock {
+    width: 60vw;
+    height: 64vw; 
+    top: 54%;    
+    left: 50%;
+    transform: translate(-50%, -60%);
+    padding: 4vw 2vw;}
+        
+  .send_text {
+    font-size: 3vw;}
+        
+  .box_name_lastname,
+  .email_2,
+  .data {
+    height: 6vw;    
+    font-size: 2.8vw;
+    margin-bottom: 2.4vw;
+    padding: 2vw;}
+        
+  .button_2 {
+    width: 50%;      
+    height: 8vw;  
+    font-size: 3.2vw;
+    border-radius: 2vw;
+    margin-top: 1vw;
+    padding: 2vw;}
+
+  /* ошибка */
+
+  .error_huge{
+    font-size: 18vw;
+    margin-top: 80%;
+    margin-left: 7%;}
+          
+  .error_text {
+    font-size: 5vw;
+    margin-top: 3%;
+    margin-left: 27%;
+    width:70%;}
+}
